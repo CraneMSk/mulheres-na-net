@@ -1,0 +1,168 @@
+@font-face {
+    font-family: urt;
+    src: url(./Vampire\ Wars.ttf);
+}
+
+
+
+
+body{
+    font-family: urt;
+    font-optical-sizing: auto;
+    margin: 0%;
+    padding: 0%;
+    background-color: #000000;
+    background-image: url(https://cdn.pixabay.com/photo/2022/03/10/13/59/astronaut-7059915_1280.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #252425;
+    background-image: url(https://cdn.pixabay.com/animation/2023/07/13/14/22/14-22-36-485_512.gif);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0%;
+    color: white;
+    text-shadow: 0 0 10px #1100ff;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0%;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: #fcfcfc;
+    text-decoration: none;
+    text-shadow: 0 0 10px;
+}
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid #f8f8f8;
+    padding: 10px;
+    text-align: left;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label{
+    margin-top: 10px;
+    text-shadow: 0 0 10px;
+    color: white;
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dad6d6;
+    color: rgb(0, 0, 0);
+    border: hwb(110 0% 0%);
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+footer{
+    background-color: #252425;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: url(https://cdn.pixabay.com/animation/2023/07/13/14/22/14-22-36-485_512.gif);
+}
+
+p{
+    color: #dad6d6;
+    
+}
+
+h3{
+    color: white;
+    text-shadow: 0 0 10px;
+}
+
+th{
+    color: white;
+    
+}
+
+td{
+    color: white;
+    
+}
+
+
+
+figcaption{
+    color: white;
+
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
